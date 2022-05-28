@@ -88,7 +88,7 @@ footer{
     width: 50px;
     border-radius: 50px;
     border: 1px solid #f2f2f2;
-    background-image: url(/assets/twitter.svg);
+    background-image: url(https://david-um.github.io/Profile/assets/twitter.svg);
     background-position: center;
     background-size: 40%;
     background-repeat: no-repeat;
@@ -101,15 +101,15 @@ footer{
 }
 
 .social-icon:nth-of-type(2){
-    background-image: url(/assets/github.svg);
+    background-image: url(https://david-um.github.io/Profile/assets/github.svg);
 
 }
 .social-icon:nth-of-type(3){
-    background-image: url(/assets/linkedin.svg);
+    background-image: url(https://david-um.github.io/Profile/assets/linkedin.svg);
     
 }
 .social-icon:nth-of-type(4){
-    background-image: url(/assets/fav-icon.svg);
+    background-image: url(https://david-um.github.io/Profile/assets/fav-icon.svg);
     
 }
 
