@@ -21,7 +21,9 @@ header{
     opacity: 1;
     display: flex;
     width: 100%;
+    height: 65px;
     text-align: center;
+    margin-bottom: 0px;
 }
 
 .TituloNombre {
@@ -38,35 +40,88 @@ header{
     padding: 0;
 }
 
-.version {
-    font-size: 25px;
-    color: #E9EDED  ;
-    margin: 5px 15px;
-    padding: 13px 25px 5px 25px;
-    background-color: black;
-    border-radius: 18px; 
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Spline Sans Mono', monospace;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-}
+
 
 /* Main */
 
+.contenedor-uno{
+    position: relative;
+    width: 100%;
+    height: 750px;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+}
+
+.principal{
+    position: relative;
+    height: 750px;
+    width: 100%;
+}
+
+.principal-uno{
+    background-color: #8CF817;
+}
+
+.principal-uno:hover{
+    transition: 2s;
+    background-color: skyblue;
+}
+.principal-uno-texto{
+    font-size: 40px;
+    position: relative;
+    padding: 0;
+    margin: 100px 90px 25px 90px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #E9EDED;
+}
+
+.principal-uno-boton{
+    position: relative;
+    font-size: 30px;
+    margin: 0px 120px;
+    padding: 15px 0px 15px 30px;
+    background-color: black;
+    color: #f2f2f2;
+    border-radius: 30px;
+}
+.principal-uno-imagen{
+    margin: 40px;
+    width: 80%;
+}
+
+
+
+.principal-dos{
+    background-color: green;
+}
+.principal-tres{
+    background-color: violet;
+}
+.principal-cuatro{
+    background-color: orange;
+}
+.principal-cinco{
+    background-color: brown;
+}
 
 
 /* Pie de pagina */
 footer{
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
+    right: 0;
     padding: 10px 0;
     background-color: #006092;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    opacity: 1;
 }
 
 .footer-image{
@@ -122,12 +177,20 @@ footer{
 .menu-item{
     margin: 1rem 1.5rem;
     cursor: pointer;
-    opacity: 0.6;
+    opacity: 0.85;
 }
 
 .menu-item:hover{
     opacity: 1;
 }
+
+.version {
+    font-size: 25px;
+    color: #E9EDED  ;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Spline Sans Mono', monospace;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}   
 
 .copyright{
     color: #f2f2f2;
